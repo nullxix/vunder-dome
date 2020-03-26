@@ -5,10 +5,7 @@ const Vs = styled.div`
     color: black;
 `
 
-
-
 export default props => {
-
     return (
         <Vs>
             ~VS~

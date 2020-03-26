@@ -4,16 +4,13 @@ const   React = require('react'),
 
 
 const Nombre = styled.div`
-    color: black;
+    color: ${global.black};
     text-align: center;
-    border: 1px solid ${global.black};
     margin: auto;
-    width: 90%;
 `
 
 export default props => {
     return (
         <Nombre>{props.children}</Nombre>
     )
-
 }

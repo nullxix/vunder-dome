@@ -1,12 +1,17 @@
 import React from 'react';
-import Champion from './components/champion/Champion'
+import Champion from './components/champion/Champion.js'
+import Vs from './components/vs/Vs'
+import BattleContainer from './components/battle/BattleContainer.js'
 
 
 function App() {
   return (
     <div>
-      <Champion>David</Champion>
-      <Champion>Goliath</Champion>
+      <BattleContainer>
+        <Champion>David</Champion>
+        <Vs/>
+        <Champion>Goliath</Champion>
+      </BattleContainer>
     </div>
   )
 }
