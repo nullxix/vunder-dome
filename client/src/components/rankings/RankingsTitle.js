@@ -2,20 +2,26 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Container = styled.div`
-    box-sizing: border-box;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 100px;
+    text-align: center;
 `
+
+const Title = styled.div`
+    font-size: 32px;
+    text-align: center;
+`
+
 
 export default props => {
 
     return (
         <Container>
-            {props.children}
+            <Title>STANDINGS</Title>
+            <hr style={{width: '100%'}}/>
         </Container>
-
     )
 }

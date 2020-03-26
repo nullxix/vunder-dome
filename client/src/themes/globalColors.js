@@ -2,5 +2,6 @@
 
 export default {
     black: 'black',
-    white: 'white'
+    white: 'white',
+    red: 'rebeccapurple',
 }
