@@ -46,7 +46,6 @@ const getStandings = () => {
         //b bigger POSITIVE
         return (b.rank - a.rank)
     })
-    outStandings.sort()
     return outStandings
 }
 
