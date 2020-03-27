@@ -1,7 +1,7 @@
 mongoose = require('mongoose')
 
 
-const names = ['David', 'Bob', 'Bethany', 'Mr Mr', 'Anonymous Persian Prince', 'Bob Jr', 'Goliath']
+const names = ['Vunder School Computer', 'Bob', 'Magic School Bus', 'MoMo', 'Anonymous Persian Prince', 'Bob Jr','Jimmy','Nix','Laney','The Placenta','Sam','Nate','Marcus','Darius','Google Inc.', 'David', 'Goliath']
 let lastRank = names.length * 10
 const standings = names.map(name => {
     lastRank = lastRank - (Math.random()*20)
