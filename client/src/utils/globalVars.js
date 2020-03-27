@@ -1,1 +1,1 @@
-export default {hostURL: 'http://localhost:4598'}
+export default {hostURL: 'https://nick.pink/vunderdome'}
